@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bg Color Changer</title>
+    <style>
+        h1{
+            display: flex;
+          text-align: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          margin: 26px;
+          padding: 20px;
+          color: white;
+          box-sizing: border-box;
+          border: 1px solid black;
+          border-radius: 6px;
+          background-color: aqua;
+        }
+        div{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            gap: 20px;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        button{
+            border: 1px solid white;
+            border-radius: 16px;
+            padding: 12px;
+            color: aqua;
+        }
+        button:hover{
+            background-color:  #a0f8f8;
+            color: #000407;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Background Color Changes Every Second After Clicking Start Button</h1>
+     <div>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
